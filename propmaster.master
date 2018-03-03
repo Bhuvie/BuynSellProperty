@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="propmaster.master.cs" Inherits="propmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 900px;
+            height: 201px;
+        }
+        .auto-style2 {
+            width: 900px;
+            height: 172px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="background-image:url(de.jpg)" >
+    <div >
+        
+        
+            <table border="0" style="height: 676px; width: 100%">
+                <tr>
+                    <td class="auto-style1" width="100%">
+        
+            <img alt="Property image" class="auto-style2" src="prop.png" style="width: 100%;"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        
+            
+        
+                    </td>
+                </tr>
+                <tr   >
+                    <td>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+                            </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        
+        
+    </div>
+    </form>
+</body>
+</html>
